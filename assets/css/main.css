@@ -469,7 +469,7 @@ section {
     inset: 0;
     padding: 10px 0;
     margin: 0;
-    background: rgba(var(--color-secondary-rgb), 0.9);
+    background: rgba(var(--color-primary-rgb));
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -1251,6 +1251,7 @@ section {
     color: var(--color-secondary);
     font-size: 16px;
     font-weight: 700;
+    line-height: 21px;
   }
   .cta .container {
      padding: 24px;
@@ -3070,6 +3071,10 @@ section {
 .item  p{
   font-size: 13px!important;
 }
+.item h6{
+  font-size: 11px;
+  margin-top: -6px!important;
+}
 .why-us h3 {
   font-size: 18px;
   font-weight: 700;
@@ -3080,5 +3085,17 @@ section {
 
 .features .tab-content {
   margin-top: 0px;
+}
+.cta .content p {
+  font-weight: 500;
+  font-size: 13px;
+}
+.faq .accordion-body {
+  font-size: 12px;
+}
+.navbar a, .navbar a:focus {
+  padding: 9px 20px;
+  font-size: 16px;
+  font-weight: 600;
 }
 }
